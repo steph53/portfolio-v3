@@ -106,12 +106,6 @@ THREE.CanvasRenderer = function (parameters) {
         _normal = new THREE.Vector3(),
         _normalViewMatrix = new THREE.Matrix3();
 
-    /* TODO
-    _canvas.mozImageSmoothingEnabled = false;
-    _canvas.webkitImageSmoothingEnabled = false;
-    _canvas.msImageSmoothingEnabled = false;
-    _canvas.imageSmoothingEnabled = false;
-    */
 
     // dash+gap fallbacks for Firefox and everything else
 
